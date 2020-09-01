@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaAward, FaPaperPlane } from 'react-icons/fa'
+import { FaAward, FaPaperPlane, FaBaseballBall } from 'react-icons/fa'
 
 import Image1 from './../assets/images/image1.png'
 import Image2 from './../assets/images/image2.jpg'
@@ -11,7 +11,7 @@ const data = [
     headline: 'Teacher and Coach',
     description: `I taught High School Math and coached Baseball, Football, and Basketball helping lead multiple teams to the regional tournament`,
     image: Image1,
-    icon: <FaPaperPlane />,
+    icon: <FaBaseballBall />,
   },
   {
     date: 'November 26th 2011',
