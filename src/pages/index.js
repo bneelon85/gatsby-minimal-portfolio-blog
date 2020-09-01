@@ -35,8 +35,8 @@ class SiteIndex extends React.Component {
           sit amet tellus cras adipiscing enim. Amet massa vitae tortor
           condimentum lacinia quis vel eros donec.
         </p>
-        <div display='block' margin-left='auto' margin-right='auto' text-align='center'>
-        <img src={DisplayImage} alt={siteTitle} />
+        <div display='flex' background-color='#000000'>
+          <img src={DisplayImage} alt={siteTitle} margin='auto' max-width='100%' max-height='100%'/>
         </div>
       </Layout>
     );
