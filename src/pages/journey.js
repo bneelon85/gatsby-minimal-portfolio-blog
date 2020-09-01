@@ -27,10 +27,10 @@ class Journey extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`Professional Journey | ${siteTitle}`}
+          title={`Journey | ${siteTitle}`}
         />
 
-        <h2>Journey</h2>
+        <h2>Professional Journey</h2>
 
         <div>
           <VerticalTimeline animate={false}>
