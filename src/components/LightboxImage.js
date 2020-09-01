@@ -17,7 +17,7 @@ export class LightboxImage extends Component {
   render() {
     const { title, caption, src } = this.props
     return (
-      <div>
+      <div style={{ display:'flex', alignItems:'center' }}>
         <Modal
           open={this.state.open}
           onClose={this.closeModal}
@@ -30,7 +30,7 @@ export class LightboxImage extends Component {
           showCloseIcon={true}
         >
           <img src={src} alt={title} style={{width:'100%', height:'100%'}}/>
-          <div style={{ padding: 10, display:'flex', alignItems:'center' }}>
+          <div style={{ padding: 10}}>
             <span style={{ fontSize: 18, fontWeight: 'bold', margin:'auto', maxWidth:'100%', maxHeight:'100%' }}>{title}</span>
             <br />
             {caption}
