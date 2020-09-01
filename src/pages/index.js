@@ -35,7 +35,7 @@ class SiteIndex extends React.Component {
           sit amet tellus cras adipiscing enim. Amet massa vitae tortor
           condimentum lacinia quis vel eros donec.
         </p>
-        <img src={DisplayImage} alt={siteTitle} />
+        <img src={DisplayImage} alt={siteTitle} class="center"/>
       </Layout>
     );
   }
