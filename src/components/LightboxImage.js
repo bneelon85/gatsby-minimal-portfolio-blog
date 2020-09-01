@@ -17,7 +17,7 @@ export class LightboxImage extends Component {
   render() {
     const { title, caption, src } = this.props
     return (
-      <div>
+      <div style={{display:'flex', alignItems:'center'}}>
         <Modal
           open={this.state.open}
           onClose={this.closeModal}
