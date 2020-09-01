@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-minimal-portfolio-blog',
-    author: 'Sai Krishna',
+    title: 'Bobby Neelon',
+    author: 'Bobby Neelon',
     description:
-      'GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers.',
-    siteUrl: 'https://saikrishna.me',
+      'Bobby portfolio website with blog.',
+    siteUrl: 'https://bobby-neelon.com',
   },
   pathPrefix: '/',
   plugins: [
