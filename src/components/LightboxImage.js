@@ -29,7 +29,7 @@ export class LightboxImage extends Component {
           }}
           showCloseIcon={true}
         >
-          <img src={src} alt={title} />
+          <img src={src} alt={title} style={{width:'100%', height:'100%'}}/>
           <div style={{ padding: 10 }}>
             <span style={{ fontSize: 18, fontWeight: 'bold' }}>{title}</span>
             <br />
