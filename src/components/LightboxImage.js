@@ -30,8 +30,8 @@ export class LightboxImage extends Component {
           showCloseIcon={true}
         >
           <img src={src} alt={title} style={{width:'100%', height:'100%'}}/>
-          <div style={{ padding: 10 }}>
-            <span style={{ fontSize: 18, fontWeight: 'bold' }}>{title}</span>
+          <div style={{ padding: 10, display:'flex', alignItems:'center' }}>
+            <span style={{ fontSize: 18, fontWeight: 'bold', margin:'auto', maxWidth:'100%', maxHeight:'100%' }}>{title}</span>
             <br />
             {caption}
           </div>
