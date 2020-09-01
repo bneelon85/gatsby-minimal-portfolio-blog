@@ -29,7 +29,7 @@ export class LightboxImage extends Component {
           }}
           showCloseIcon={true}
         >
-          <div style={{ display:'flex', alignItems:'center' }}>
+          <div style={{display:'flex', alignItems:'center'}}>
           <img src={src} alt={title} style={{margin:'auto', maxWidth:'100%', maxHeight:'100%'}}/>
           </div>
           <div style={{ padding: 10}}>
