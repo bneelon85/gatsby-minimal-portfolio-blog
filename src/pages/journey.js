@@ -27,7 +27,7 @@ class Journey extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`Journey | ${siteTitle}`}
+          title={`Professional Journey | ${siteTitle}`}
         />
 
         <h2>Journey</h2>
