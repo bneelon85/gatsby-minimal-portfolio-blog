@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaAward, FaPaperPlane, FaBaseballBall } from 'react-icons/fa'
 
-import Image1 from './../assets/images/image1.png'
+import Image1 from './../assets/images/image1.PNG'
 import Image2 from './../assets/images/image2.jpg'
 import Image3 from './../assets/images/image3.jpg'
 
